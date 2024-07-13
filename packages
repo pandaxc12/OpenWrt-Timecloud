@@ -65,7 +65,6 @@ luci-app-firewall
 luci-app-hd-idle
 luci-app-https-dns-proxy
 luci-app-opkg
-luci-app-samba4
 luci-app-upnp
 luci-app-wol
 luci-base
@@ -85,8 +84,8 @@ openssh-sftp-server
 openwrt-keyring
 opkg
 procd
-samba4-server
 swconfig
+tailscale
 terminfo
 tmux
 ubi-utils
