@@ -7,25 +7,13 @@ config interface 'loopback'
 
 config globals 'globals'
 	option packet_steering '1'
-	option ula_prefix 'fd13:b65a:1023::/48'
+	option ula_prefix 'fd13:b65a:86ed::/48'
 
 config device
-	option name 'br-lan'
-	option type 'bridge'
-	list ports 'lan'
+        option name 'br-lan'
+        option type 'bridge'
+        list ports 'lan'
 
 config interface 'lan'
-	option device 'br-lan'
-	option proto 'static'
-	option ipaddr '192.168.1.1'
-	option netmask '255.255.255.0'
-	option ip6assign '60'
-
-config interface 'MKLAN'
-	option proto 'static'
-	option device 'br-lan'
-	option ipaddr '192.168.2.2'
-	option netmask '255.255.255.0'
-	option gateway '192.168.2.1'
-	list dns '192.168.2.1'
-
+        option device 'br-lan'
+        option proto 'dhcp'
