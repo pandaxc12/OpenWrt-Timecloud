@@ -85,7 +85,6 @@ openwrt-keyring
 opkg
 procd
 swconfig
-tailscale
 terminfo
 tmux
 ubi-utils
