@@ -20,10 +20,10 @@ config uhttpd 'main'
         option ubus_prefix '/ubus'
 
 config uhttpd 'web'
-        option home '/mnt/mmc/web'
+        option home '/home/web/web'
         list listen_https '0.0.0.0:58888'
-        option cert '/mnt/mmc/ssl/mike.crt'
-        option key '/mnt/mmc/ssl/mike.key'
+        option cert '/home/web/w3.crt'
+        option key '/home/web/w3.key'
 
 
 config cert 'defaults'
