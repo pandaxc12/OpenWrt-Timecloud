@@ -13,6 +13,8 @@ fdisk
 firewall
 fstools
 fwtool
+f2fsck
+f2fs-tools
 getrandom
 hd-idle
 ip-full
@@ -22,6 +24,7 @@ kmod-crypto-crc32c
 kmod-crypto-hash
 kmod-fs-exfat
 kmod-fs-ext4
+kmod-fs-f2fs 
 kmod-fs-nfs
 kmod-fs-nfs-v4
 kmod-fs-ntfs
@@ -75,6 +78,7 @@ luci-mod-admin-full
 luci-mod-network
 luci-mod-status
 luci-mod-system
+mkf2fs
 mtd
 netifd
 nfs-utils
