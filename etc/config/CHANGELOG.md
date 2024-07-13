@@ -1,8 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## v2.2
+## v0.1
 ### Changed
- - Remove useless packages
- - Use 21.02.3
+ - Use 23.05.3
 
